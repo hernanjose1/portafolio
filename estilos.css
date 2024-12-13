@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(56, 54, 54);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a i {
+  color: white;
+  font-size: 2em;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  font-size: 2em;
+}
+
+header nav ul li a {
+  color: white;
+}
+
+.seccion-1 {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.seccion-1 .acerca-de {
+  width: 30%;
+  text-align: right;
+}
+
+.seccion-1 .acerca-de p {
+  font-size: 20px;
+}
+
+.seccion-1 .acerca-de h2 {
+  color: rgb(255, 85, 0);
+}
+
+.seccion-1 .acerca-imagen img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.seccion-2,
+.seccion-3 {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin: 1%;
+  width: 40%;
+}
+
+.seccion-2 h3,
+.seccion-3 h4 {
+  color: red;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.seccion-2 h3,
+.seccion-3 h4 {
+  text-align: center;
+}
+
+.seccion-2 .acerca-motor img,
+.seccion-3 .acerca-Dado2 img {
+  display: inline-block;
+  margin: 0 auto;
+  height: 200px;
+  border-radius: 8px;
+}
+
+ /* Estilos para pantallas más pequeñas (hasta 768px) */
+ @media (max-width: 700px) {
+  .container{
+    background-color: aqua;
+
+  }
+ }
+
+ footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f39c12;
+}
+
+
